@@ -113,7 +113,7 @@ img{
     width: 91.66%;
 }
 .col-12{
-    width: 10%;
+    width: 100%;
 }
 
 .col-1,.col-2,.col-3,.col-4,.col-5,.col-6,.col-7,.col-8,.col-9,.col-10,.col-11,.col-12{
@@ -203,35 +203,37 @@ header .menu ul li:hover .drop-down{
     background: url('../Images/banner-bg2.png');
     position: absolute;
     background-repeat: no-repeat;
-    background-size: 40% auto;
+    background-size: 50% auto;
     width: 100%;
     height: 80%;
     left: 0;
-    
+    background-position: 50% 50%;
+    opacity: 0.4;
 }
 .banner .banner-content{
-    padding: 80px;
+    padding-right: 90px;
     position: relative;
 }
-.banner .banner-content h1{
+.banner .banner-content h1,.service .title h1{
     font-size: var(--fs-64);
     font-family: var(--lexend-deca);
     line-height: 1.2;
     font-weight: var(--fw-600);
 }
-.banner .banner-content h1 .clip{
+.banner .banner-content h1 .clip,.service .title h1 .clip{
     background-image: var(--primary-color);
     background-clip: text;
+    display: inline-block;
 }
-.banner .banner-content h1 .clip span{
+.banner .banner-content h1 .clip span,.service .title h1 .clip span{
     color: transparent;
 }
-.banner .banner-content p{
+.banner .banner-content p, .service-content p{
     padding: 20px 0;
     color: var(--dark-color);
     font-size: var(--fs-18);
 }
-.banner .banner-content p span{
+.banner .banner-content p span, .service-content p span{
     color: var(--white-color);
 }
 .banner .banner-content a{
@@ -247,4 +249,43 @@ header .menu ul li:hover .drop-down{
 .banner .banner-image img{
     margin-top: 40px;
 }
+
+.count{
+    border-bottom: 1px solid #212529;
+    text-align: center; 
+    padding: 60px 0; 
+    margin-top: 30px; 
+}
+
+.count h2{
+    font-family: var(--lexend-deca);
+    font-size: var(--fs-64);
+    font-weight: var(--fw-400);
+}
+.count p{
+    font-size: var(--fs-16);
+    font-family: var(--lexend-deca);
+    font-weight: var(--fw-400);
+    color: var(--dark-color);
+}  
 /* BANNER END */
+
+/* SERVICE START */
+.service-overlay{
+    background-image: url('../Images/service-bg.jpeg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.service-box{
+    padding: 30px;
+    background-image: linear-gradient(180deg, #7E82992E 0%, #7E829900 100%);
+    border-radius: 40px;
+    margin-top: 30px;
+}
+.px-0{
+    padding-right: 0;
+    padding-left: 0;
+}
+/* SERVICE END */
+
