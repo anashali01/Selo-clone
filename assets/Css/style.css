@@ -236,7 +236,8 @@ header .menu ul li:hover .drop-down {
 .scientific-banner .scientific-content h2,
 .seo .title h2,
 .work .title h2,
-.feedback .title h2{
+.feedback .title h2,
+.campaign .title h2{
   font-size: var(--fs-64);
   font-family: var(--lexend-deca);
   line-height: 1.2;
@@ -248,7 +249,8 @@ header .menu ul li:hover .drop-down {
 .seo .title h2 .clip,
 .award-section .award-content h2 .clip,
 .work .title h2 .clip,
-.feedback .title h2 .clip {
+.feedback .title h2 .clip,
+.campaign .title h2 .clip{
   background-image: var(--primary-color);
   background-clip: text;
   display: inline-block;
@@ -259,7 +261,8 @@ header .menu ul li:hover .drop-down {
 .seo .title h2 .clip span,
 .award-section .award-content h2 .clip span,
 .work .title h2 .clip span,
-.feedback .title h2 .clip span {
+.feedback .title h2 .clip span,
+.campaign .title h2 .clip span{
   color: transparent;
 }
 .banner .banner-content p,
@@ -268,7 +271,8 @@ header .menu ul li:hover .drop-down {
 .seo .title p,
 .award-section .award-content p,
 .work .title p,
-.feedback ,.title p {
+.feedback .title p,
+.campaign .title p{
   padding: 20px 0;
   color: var(--dark-color);
   font-size: var(--fs-18);
@@ -279,10 +283,10 @@ header .menu ul li:hover .drop-down {
 .seo .title p span,
 .award-section .award-content p span,
 .work .title p span,
-.feedback .title p span {
+.feedback .title p span{
   color: var(--white-color);
 }
-.banner .banner-content a {
+.banner .banner-content a{
   background: var(--primary-color);
   display: inline-block;
   padding: 15px 40px;
@@ -567,11 +571,14 @@ header .menu ul li:hover .drop-down {
   font-weight: var(--fw-500);
 }
 .work .work-box a img:hover {
-  rotate: 4deg;
+  transform: rotate(4deg);
 }
 /* WORK END */
 
 /* FEEDBACK START */
+.feedback{
+  padding-top: 100px;
+}
 .feedback .title{
     text-align: center;
 }
@@ -579,6 +586,51 @@ header .menu ul li:hover .drop-down {
     color: var(--white-color);
     font-size: var(--fs-44);
     font-weight: var(--fw-500);
+}
+.feedback .feedback-box{
+  background-image: linear-gradient(180deg, #282a36 0%, #2a2b3100 100%);
+  margin-top: 20px;
+  padding: 50px;
+  border-radius: 40px;
+}
+.feedback .feedback-box i{
+  font-size: 16px;
+  margin-bottom: 20px;
+}
+.feedback .feedback-box p{
+  font-weight: var(--fw-300);
+  font-family: var(--lexend-deca);
+  font-size: var(--fs-22);
+  color: var(--white-color);
+  padding-bottom: 20px;
+}
+.feedback .feedback-box h4{
+  font-size: var(--fs-24);
+  font-weight: var(--fw-400);
+}
+.feedback .feedback-box span{
+  font-size: var(--fs-16);
+  font-weight: var(--fw-500);
+}
+.feedback .feedback-box img{
+  border-radius: 50%;
+  width: 50px;
+}
+
+.campaign{
+  padding-top: 180px;
+  padding-bottom: 20px;
+}
+.campaign a{
+  background: var(--primary-color);
+  display: inline-block;
+  padding: 15px 40px;
+  border-radius: 50px;
+  color: #000;
+  font-family: var(--lexend-deca);
+  font-weight: var(--fw-500);
+  box-shadow: 19px 20px 60px 0px
+    rgba(255, 165.99999999999991, 83.99999999999999, 0);
 }
 /* FEEDBACK END */
 
