@@ -296,6 +296,7 @@ header .menu ul li:hover .drop-down {
   font-weight: var(--fw-500);
   box-shadow: 19px 20px 60px 0px
     rgba(255, 165.99999999999991, 83.99999999999999, 0);
+    transition: 0.5s;
 }
 .banner .banner-content .spin {
   position: absolute;
@@ -398,6 +399,7 @@ header .menu ul li:hover .drop-down {
   font-weight: var(--fw-500);
   box-shadow: 19px 20px 60px 0px
     rgba(255, 165.99999999999991, 83.99999999999999, 0);
+  transition: 0.5s;
 }
 .scientific-banner .scientific-content .spin {
   position: absolute;
@@ -616,9 +618,7 @@ header .menu ul li:hover .drop-down {
   text-transform: uppercase;
   font-weight: var(--fw-500);
 }
-.work .work-box a img:hover {
-  transform: rotate(4deg);
-}
+
 /* WORK END */
 
 /* FEEDBACK START */
@@ -697,6 +697,7 @@ header .menu ul li:hover .drop-down {
   font-weight: var(--fw-500);
   box-shadow: 19px 20px 60px 0px
     rgba(255, 165.99999999999991, 83.99999999999999, 0);
+  transition: 0.5s;
 }
 .campaign .spin {
   width: 44px;
@@ -753,3 +754,22 @@ header .menu ul li:hover .drop-down {
   }
 }
 /* KEYFRAMES END*/
+
+/* HOVER START */
+.banner .banner-content a:hover{
+  transform: translateY(-20px);
+} 
+
+.scientific-banner .scientific-content a:hover{
+  transform: translateY(-20px);
+}
+
+.work .work-box a img:hover {
+  transform: rotate(4deg);
+}
+
+.campaign a:hover{
+  transform: translateY(-20px);
+}
+
+/* HOVER END */
