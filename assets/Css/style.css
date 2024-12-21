@@ -333,6 +333,10 @@ header .menu ul li:hover .drop-down {
 /* BANNER END */
 
 /* SERVICE START */
+.service-overlay-2{
+  background-image: linear-gradient(180deg, #080A1000 0%, #080A10 100%);
+  opacity: 1;
+}
 .service {
   background-image: url("../Images/service-bg.png");
   background-size: cover;
@@ -457,7 +461,7 @@ header .menu ul li:hover .drop-down {
 }
 
 .seo-overlay {
-  background-image: linear-gradient(180deg, #04050590 0%, #080a1000 100%);
+  background-image: linear-gradient(180deg, #040505a7 0%, #080a1000 100%);
   background-color: transparent;
   width: 100%;
   height: 100%;
@@ -509,6 +513,11 @@ header .menu ul li:hover .drop-down {
   height: 100%;
   opacity: 0.9;
 }
+.award-linear{
+  background-image: linear-gradient(180deg, #040505a7 0%, #080a1000 100%);
+  background-color: transparent;
+  opacity: 1;
+}
 .award-section .award-content {
   padding: 16px;
 }
@@ -527,16 +536,34 @@ header .menu ul li:hover .drop-down {
   margin-left: 20px;
 }
 
-.award-section .award-image .spin {
+.award-section .award-image .rotate {
   position: absolute;
-  width: 110px;
   right: 22%;
   bottom: 20px;
-  background-color: #edb451;
+  background-image: url('../Images/iefyv.png');
   border-radius: 50%;
-  border: 23px solid #edb451;
+  background-size: 70%;
+  background-repeat: no-repeat;
+  border: 24px solid #EDB451;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-position: center;
+  background-color:#EDB451 ;
   animation: spin 8s infinite linear;
 }
+
+.award-image svg{
+  width: 80px;
+  height: 80px;
+  overflow: visible;
+  word-spacing: 16px;
+  font-size: 42px;
+}
+.award-image svg path{
+  fill: transparent;
+}
+
 /* AWARD_SECTION END */
 
 /* SLIDER START */
@@ -549,11 +576,10 @@ header .menu ul li:hover .drop-down {
   margin-top: 50px;
   background-color: #080a11;
 }
-.slider .row {
-  padding: 10px;
-}
-.slider .col-1 img {
-  width: 100%;
+
+.slider  img {
+  width: 12.5%;
+  padding: 0 30px;
 }
 /* SLIDER END*/
 
@@ -571,6 +597,7 @@ header .menu ul li:hover .drop-down {
   opacity: 0.3;
   background-size: 85%;
 }
+
 .work {
   position: relative;
   background-image: url("../Images/service-bg.png");
@@ -753,6 +780,7 @@ header .menu ul li:hover .drop-down {
     transform: rotate(-0deg);
   }
 }
+
 /* KEYFRAMES END*/
 
 /* HOVER START */
