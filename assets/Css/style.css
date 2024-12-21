@@ -461,7 +461,7 @@ header .menu ul li:hover .drop-down {
 }
 
 .seo-overlay {
-  background-image: linear-gradient(180deg, #040505a7 0%, #080a1000 100%);
+  background-image: linear-gradient(180deg, #040505b9 0%, #040508f2 100%);
   background-color: transparent;
   width: 100%;
   height: 100%;
@@ -487,6 +487,12 @@ header .menu ul li:hover .drop-down {
 /* AWARD_SECTION START */
 .award-section {
   position: relative;
+  background-image: url('../Images/service-bg.png');
+  padding-bottom: 90px;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100%;
 }
 .award-overlay {
   background: url("../Images/banner-bg2.png");
@@ -514,7 +520,7 @@ header .menu ul li:hover .drop-down {
   opacity: 0.9;
 }
 .award-linear{
-  background-image: linear-gradient(180deg, #040505a7 0%, #080a1000 100%);
+  background-image: linear-gradient(180deg, #040505b9 0%, #080a1000 100%);
   background-color: transparent;
   opacity: 1;
 }
@@ -539,7 +545,7 @@ header .menu ul li:hover .drop-down {
 .award-section .award-image .rotate {
   position: absolute;
   right: 22%;
-  bottom: 20px;
+  bottom: 80px;
   background-image: url('../Images/iefyv.png');
   border-radius: 50%;
   background-size: 70%;
@@ -573,7 +579,6 @@ header .menu ul li:hover .drop-down {
   border-bottom: 1px solid #212529;
   width: 100%;
   height: 100px;
-  margin-top: 50px;
   background-color: #080a11;
 }
 
@@ -597,12 +602,15 @@ header .menu ul li:hover .drop-down {
   opacity: 0.3;
   background-size: 85%;
 }
-
+.work-linear{
+  background-image: linear-gradient(180deg, #040505b9 0%, #000000c0 100%);
+  background-color: transparent;
+  opacity: 1;
+}
 .work {
   position: relative;
   background-image: url("../Images/service-bg.png");
   z-index: 1;
-  padding: 100px;
   background-size: cover;
   background-position: center;
 }
@@ -650,19 +658,21 @@ header .menu ul li:hover .drop-down {
 
 /* FEEDBACK START */
 .feedback {
-  padding-top: 100px;
+  padding-top: 200px;
   background-image: url("../Images/service-bg.png");
   background-size: cover;
   background-position: center;
   position: relative;
   z-index: 1;
+  background: black;
 }
+
 .feedback-overlay {
   background-image: url("../Images/feedback-ovel.png");
   background-repeat: no-repeat;
   background-size: 50%;
-  background-position: center center;
-  opacity: 0.5;
+  background-position: 50% 65%;
+  opacity: 0.6;
   position: absolute;
   left: 0;
   top: 0;
