@@ -46,6 +46,7 @@
   .container {
     max-width: 540px;
   }
+  
 }
 @media (min-width: 768px) {
   .col-md--1 {
@@ -128,6 +129,9 @@
   .container {
     max-width: 960px;
   }
+  .banner .banner-content {
+    padding: 50px 20px;
+  }
 }
 @media (min-width: 1200px) {
   .col-xl-1 {
@@ -168,6 +172,18 @@
   }
   .container {
     max-width: 1140px;
+  }
+  .banner .banner-content {
+    padding: 50px 20px;
+  }
+  .justify-xl-start{
+    justify-content: start;
+  }
+  .justify-xl-end{
+    justify-content: end;
+  }
+  .justify-xl-center{
+    justify-content: center;
   }
 }
 @media (min-width: 1400px) {
