@@ -185,6 +185,7 @@
   .justify-xl-center{
     justify-content: center;
   }
+ 
 }
 @media (min-width: 1400px) {
   .col-xxl-1 {
@@ -225,5 +226,11 @@
   }
   .container {
     max-width: 1320px;
+  }
+  .d-xxl-flex{
+    display: flex;
+  }
+  .d-xxl-none{
+    display: none;
   }
 }

@@ -811,3 +811,7 @@ header .menu ul li:hover .drop-down {
 }
 
 /* HOVER END */
+
+.d-none{
+  display: none;
+}
