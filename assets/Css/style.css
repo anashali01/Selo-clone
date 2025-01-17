@@ -227,8 +227,8 @@ header .menu ul li:hover .drop-down {
   background-position: 50% 40%;
   opacity: 0.4;
 }
-.banner .banner-content {
-  padding-right: 90px;
+.banner .banner-content{
+  padding-right: 80px;
   position: relative;
 }
 .banner .banner-content h1,
