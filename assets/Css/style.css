@@ -85,7 +85,9 @@ img {
 .justify-between {
   justify-content: space-between;
 }
-
+.justify-start{
+  justify-content: flex-start;
+}
 .col-1 {
   width: 8.33%;
 }
@@ -758,10 +760,10 @@ header .menu ul li:hover .drop-down {
 }
 .footer h2 {
   font-family: var(--lexend-deca);
-  font-size: var(--fs-24);
+  font-size: 28px;
 }
 .footer p {
-  font-size: var(--fs-24);
+  font-size: 28px;
   font-weight: var(--fw-400);
 }
 
