@@ -11,7 +11,7 @@ Recently we got project to clone the website using HTML5 & CSS3.
 
 -> Structrued code and readable code
 
--> Don't any type of improper property like (position , margin ,   etc..) to set any type of content.
+-> Don't use any type of improper property like (position , margin ,   etc..) to set any type of content.
 
 -> Make it responsive using Min-width.
 
